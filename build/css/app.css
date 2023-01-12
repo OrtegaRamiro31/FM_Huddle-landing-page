@@ -372,6 +372,7 @@ html {
 body {
   margin: auto;
   font-size: 16px;
+  line-height: 1.5;
 }
 
 *, *:before, *:after {
@@ -469,6 +470,12 @@ body {
 }
 .getStarted .getStarted__mainInfo {
   margin: 3rem 0;
+  font-size: 1.8rem;
+}
+@media (min-width: 992px) {
+  .getStarted .getStarted__mainInfo {
+    width: 30%;
+  }
 }
 .getStarted .getStarted__button {
   text-decoration: none;
