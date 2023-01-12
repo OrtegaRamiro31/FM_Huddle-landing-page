@@ -430,6 +430,11 @@ body {
 .imgSVG {
   width: 100%;
 }
+@media (min-width: 992px) {
+  .imgSVG {
+    width: 70%;
+  }
+}
 
 .title {
   font-size: 2.4rem;
@@ -438,6 +443,12 @@ body {
 
 .containerInfo {
   text-align: center;
+}
+@media (min-width: 992px) {
+  .containerInfo {
+    width: 50%;
+    text-align: start;
+  }
 }
 .containerInfo h2 {
   margin: 8rem 0 3rem 0;
@@ -480,6 +491,13 @@ body {
   flex-direction: column;
   gap: 2rem;
 }
+@media (min-width: 992px) {
+  .getStarted__achievements {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
 
 .getStarted__individualAchievement {
   display: flex;
@@ -505,9 +523,26 @@ body {
   margin: auto;
   width: 85%;
 }
+@media (min-width: 992px) {
+  .mainContextContainer {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
 
+@media (min-width: 992px) {
+  .growTogetherContainer__imageContainer {
+    display: flex;
+    justify-content: center;
+  }
+}
 .growTogetherContainer__imageContainer img {
   width: 100%;
+}
+@media (min-width: 992px) {
+  .growTogetherContainer__imageContainer img {
+    width: 70%;
+  }
 }
 
 .imageTop,
@@ -535,6 +570,7 @@ body {
   gap: 2rem;
   text-align: center;
   align-items: center;
+  margin: auto;
 }
 
 .finalAskContainer__button {
@@ -547,6 +583,26 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   box-shadow: 0rem 0.8rem 1.5rem rgba(0, 0, 0, 0.2);
+}
+
+.yourUsersContainer__imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.flowingConversationContainer {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 992px) {
+  .flowingConversationContainer {
+    flex-direction: row;
+  }
+}
+
+.flowingConversation__divImage {
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
@@ -633,6 +689,11 @@ body {
 .footer__socialNetworks {
   margin: 3rem 0;
 }
+@media (min-width: 992px) {
+  .footer__socialNetworks {
+    margin: 5rem 0;
+  }
+}
 .footer__socialNetworks .nav__socialNetworks--link {
   filter: brightness(10);
   margin-right: 2rem;
@@ -645,4 +706,22 @@ body {
 .footer__contact {
   width: 90%;
   margin: auto;
+}
+
+.footer__main {
+  background-color: hsl(192deg, 100%, 9%);
+}
+@media (min-width: 992px) {
+  .footer__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+}
+@media (min-width: 992px) {
+  .footer__main section {
+    width: 30%;
+  }
 }
