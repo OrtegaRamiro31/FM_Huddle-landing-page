@@ -363,6 +363,9 @@ template {
   display: none;
 }
 
+/* TITLES */
+/* BODY */
+/* Colors*/
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
@@ -379,9 +382,6 @@ body {
   box-sizing: inherit;
 }
 
-/* TITLES */
-/* BODY */
-/* Colors*/
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
@@ -389,6 +389,10 @@ body {
 
 .mainContainer {
   margin: auto;
+}
+
+.button:hover {
+  cursor: pointer;
 }
 
 .header {
@@ -618,9 +622,6 @@ body {
   margin: 30rem auto 0 auto;
   color: hsl(207deg, 100%, 98%);
 }
-.footer .footer__main {
-  background-color: hsl(192deg, 100%, 9%);
-}
 
 .newsletterSuscribe {
   margin: auto;
@@ -647,6 +648,9 @@ body {
   border-radius: 1rem;
   border-style: none;
 }
+.newsletter__footer--form input:hover {
+  cursor: pointer;
+}
 .newsletter__footer--form button {
   grid-column: 2/4;
   grid-row: 3;
@@ -662,6 +666,22 @@ body {
   margin: 0 0 0 auto;
   width: 70%;
   height: 80%;
+}
+
+.input-error {
+  border-color: hsl(0deg, 100%, 63%);
+}
+
+.newsletter__footer--error, .newsletter__footer--succesful {
+  margin: -1rem 0;
+  color: hsl(0deg, 100%, 63%);
+  font-size: 1.2rem;
+  grid-column: 1/3;
+  grid-row: 3;
+}
+
+.newsletter__footer--succesful {
+  color: hsl(207deg, 100%, 98%);
 }
 
 .footer__logo {
