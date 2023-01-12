@@ -1,0 +1,30 @@
+{
+  "name": "03huddle-landing-page-with-curved-sections-master",
+  "version": "1.0.0",
+  "description": "SASS, Gulp HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrtegaRamiro31/Huddle-landing-page.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp",
+    "HTML5"
+  ],
+  "author": "Ramiro Ortega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrtegaRamiro31/Huddle-landing-page/issues"
+  },
+  "homepage": "https://github.com/OrtegaRamiro31/Huddle-landing-page#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.57.1"
+  }
+}
